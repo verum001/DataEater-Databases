@@ -25,3 +25,9 @@ Published database versions remain in `survival/versions/<version>/`. Checksums 
 To rebuild, place the matching PDFs in `survival/sources/`, install PyMuPDF, then run `python3 tools/build_survival.py`. Preparation is local and does not send documents to an online service. Version 0.1.0 was built with PyMuPDF 1.28.2; see the report for the actual installed version.
 
 Original preparation code and repository documentation use Apache-2.0. Manual text and original PDFs retain their own terms; they are **not** relicensed as Apache-2.0.
+
+## App download catalogue
+
+`catalog.json` is the public catalogue used by DataEater's Download databases screen. It records published release metadata, versioned release download addresses, exact sizes and SHA-256 digests. The app reads it directly without GitHub API authentication or API quota usage.
+
+After publishing a non-draft database release, update `catalog.json` from its final uploaded asset metadata. Keep older versions and notices available; do not include original PDFs or private files. Only uploaded `.dataeater` assets with a valid SHA-256 digest belong in the catalogue. Newest releases are selected by publication date.

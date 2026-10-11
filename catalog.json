@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Survival 0.1.0 — Three-manual collection",
+    "tag_name": "survival-v0.1.0",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-11T09:25:51Z",
+    "body": "Searchable collection of FM 3-05.70 Survival (May 2002), Nuclear War Survival Skills (1987), and AFH 10-644 SERE Operations (27 March 2017).\r\n\r\n1,645 original PDF pages; 2,635 passages. Text-block coverage, source references, ZIP integrity, SHA-256 fingerprints and deterministic rebuild checked. Thirteen oversized passages and one unresolved source character issue are documented in BUILD_REPORT.json. No OCR, diagram interpretation or answer-accuracy certification.\r\n\r\nDownload survival.dataeater and copy it to the phone’s DataEater folder. Original PDFs remain local and are not attached or published. MANIFEST.json records their source hashes.\r\n\r\nManuals retain their own terms. FM carries a distribution restriction; NWSS contains conditional reproduction permission and electronic-edition notices. See survival/SOURCE_NOTICES.md. Apache-2.0 applies to original preparation code and repository documentation, not the manual text.",
+    "assets": [
+      {
+        "id": 630324128,
+        "name": "survival.dataeater",
+        "state": "uploaded",
+        "size": 1184870,
+        "digest": "sha256:2aad8d773d89f77294e92661473eac50dadf72652a0b9369968729dd9c72ce53",
+        "browser_download_url": "https://github.com/verum001/DataEater-Databases/releases/download/survival-v0.1.0/survival.dataeater"
+      }
+    ]
+  }
+]
