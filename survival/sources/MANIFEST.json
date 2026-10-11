@@ -1,0 +1,35 @@
+[
+  {
+    "id": "army-survival-2002",
+    "title": "FM 3-05.70 (FM 21-76): Survival (May 2002)",
+    "publisher": "Department of the Army",
+    "year": 2002,
+    "license": "U.S. government work; supplied edition carries a distribution restriction, retained in extracted text",
+    "language": "en",
+    "original_file": "fm3-05-70 sirvival.pdf",
+    "sha256": "76905fc16b14b2a57eb646adb6f3c238dcfb161d66ff1103a2a7b702e20e0f32",
+    "pdf_pages": 676
+  },
+  {
+    "id": "nwss-1987",
+    "title": "Nuclear War Survival Skills: Updated and Expanded 1987 Edition",
+    "publisher": "Oregon Institute of Science and Medicine; Cresson H. Kearny",
+    "year": 1987,
+    "license": "Cresson H. Kearny conditional reproduction terms and electronic edition notice; see SOURCE_NOTICES.md",
+    "language": "en",
+    "original_file": "NWSS 1987.pdf",
+    "sha256": "7af59ed47e0aa70bf8efb710b91ac629e9a24d6015a5458466f53bf8c2d13509",
+    "pdf_pages": 317
+  },
+  {
+    "id": "af-sere-2017",
+    "title": "AFH 10-644: Survival Evasion Resistance Escape (SERE) Operations (27 March 2017)",
+    "publisher": "Department of the Air Force",
+    "year": 2017,
+    "license": "U.S. government work; source states no releasability restrictions; third-party credits retained",
+    "language": "en",
+    "original_file": "AFH 10-644 Survival Evasion Resistance Escape .pdf",
+    "sha256": "da60e15c1f7aedaafbe4a796ca02a3a6b4f510b9b987de3f87c4b8bd621e80d7",
+    "pdf_pages": 652
+  }
+]

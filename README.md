@@ -1,2 +1,27 @@
-# DataEater-Databases
-Versioned searchable manual databases for DataEater, with source provenance and per-manual distribution terms.
+# DataEater Databases
+
+Versioned manual collections for [DataEater](https://github.com/verum001/DataEater). Each database contains searchable source passages with document names and original PDF page references.
+
+## Survival 0.1.0
+
+[Download survival.dataeater](survival/versions/0.1.0/survival.dataeater?raw=true)
+
+The collection contains:
+
+- **FM 3-05.70 (FM 21-76), Survival**, Department of the Army, May 2002.
+- **Nuclear War Survival Skills, Updated and Expanded 1987 Edition**, Cresson H. Kearny, Oregon Institute of Science and Medicine.
+- **Air Force Handbook 10-644, Survival Evasion Resistance Escape (SERE) Operations**, Department of the Air Force, 27 March 2017.
+
+Copy the database to the phone's DataEater folder, then choose it in the app. DataEater 1.5.0 source adds **All unlocked databases** to search several database files together. Text search works without an AI model; AI answers require a supported model.
+
+This first edition is a searchable text extraction, not a revised survival handbook. It contains historical guidance. Images, diagrams and scale-dependent templates remain in the original PDFs. Consult the original source page for those materials. Complete cross-page procedure and complex-table review is pending; the database has no guarantee of answer accuracy.
+
+See [source terms and notices](survival/SOURCE_NOTICES.md), [preparation and checks](survival/PREPARATION.md), and [build report](survival/versions/0.1.0/BUILD_REPORT.json). Free download does not remove the manuals' original restrictions or conditional reproduction terms.
+
+## Versions and sources
+
+Published database versions remain in `survival/versions/<version>/`. Checksums identify each artifact. The supplied original PDFs are kept locally in `survival/sources/`; versioned originals are distributed as GitHub release attachments to avoid large source files in Git history. The [source manifest](survival/sources/MANIFEST.json) records exact filenames, page counts and SHA-256 hashes.
+
+To rebuild, place the matching PDFs in `survival/sources/`, install PyMuPDF, then run `python3 tools/build_survival.py`. Preparation is local and does not send documents to an online service. Version 0.1.0 was built with PyMuPDF 1.28.2; see the report for the actual installed version.
+
+Original preparation code and repository documentation use Apache-2.0. Manual text and original PDFs retain their own terms; they are **not** relicensed as Apache-2.0.
