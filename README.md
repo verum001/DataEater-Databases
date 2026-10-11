@@ -20,7 +20,7 @@ See [source terms and notices](survival/SOURCE_NOTICES.md), [preparation and che
 
 ## Versions and sources
 
-Published database versions remain in `survival/versions/<version>/`. Checksums identify each artifact. The supplied original PDFs are kept locally in `survival/sources/`; versioned originals are distributed as GitHub release attachments to avoid large source files in Git history. The [source manifest](survival/sources/MANIFEST.json) records exact filenames, page counts and SHA-256 hashes.
+Published database versions remain in `survival/versions/<version>/`. Checksums identify each artifact. The supplied original PDFs stay local in `survival/sources/` and are not published in this repository or its releases. The [source manifest](survival/sources/MANIFEST.json) records exact filenames, page counts and SHA-256 hashes.
 
 To rebuild, place the matching PDFs in `survival/sources/`, install PyMuPDF, then run `python3 tools/build_survival.py`. Preparation is local and does not send documents to an online service. Version 0.1.0 was built with PyMuPDF 1.28.2; see the report for the actual installed version.
 

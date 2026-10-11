@@ -14,7 +14,7 @@ The following notice is transcribed from the supplied PDF:
 
 > Copyright © 1986 by Cresson H. Kearny. The copyrighted material may be reproduced without obtaining permission from anyone, provided: (1) all copyrighted material is reproduced full-scale (except for microfiche reproductions), and (2) the part of this copyright notice within quotation marks is printed along with the copyrighted material.
 
-Text reflow in a database does not preserve physical page scale or template dimensions. The original PDF accompanies the release; refer to its pages for the full notice and scale-dependent materials. The original electronic edition may carry additional reproduction terms. This repository does not claim an unconditional right to republish altered electronic editions. The publisher's [edition notices](https://oism.org/nwss/) describe the electronic edition separately.
+Text reflow in a database does not preserve physical page scale or template dimensions. The original PDF remains local; obtain an appropriate original copy and refer to its pages for the full notice and scale-dependent materials. The original electronic edition may carry additional reproduction terms. This repository does not claim an unconditional right to republish altered electronic editions. The publisher's [edition notices](https://oism.org/nwss/) describe the electronic edition separately.
 
 ## AFH 10-644, SERE Operations, 27 March 2017
 
